@@ -1,5 +1,10 @@
-Flask
 numpy
+Flask
 gunicorn
+sklearn
 pandas
--e .
+PyYAML
+evidently
+dill
+matplotlib
+wsgiref
