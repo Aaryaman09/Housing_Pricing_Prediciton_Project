@@ -59,7 +59,7 @@ Build docker image
 ```bash
   docker build -t <dockerimagename>:<tagname> .
 ```
-> always create docker image name always in small caps and tagline can be anthing e.g. latest.
+> always create docker image name in small caps and tagline can be anthing e.g. latest.
 
 Check image created
 
