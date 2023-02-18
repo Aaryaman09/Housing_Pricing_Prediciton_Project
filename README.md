@@ -28,13 +28,13 @@ Go to the project directory
   cd my-project
 ```
 
-create environment
+Create environment
 
 ```bash
   conda create -p venv python==3.7 -y
 ```
 
-activate environment
+Activate environment
 
 ```bash
   conda activate venv/
@@ -52,6 +52,56 @@ Start the server
   python app.py
 ```
 
+## Want to build docker image and run the container
+
+Build docker image 
+
+```bash
+  docker build -t <dockerimagename>:<tagname> .
+```
+> always create docker image name always in small caps and tagline can be anthing e.g. latest.
+
+Check image created
+
+```bash
+  docker images
+```
+
+Run docker image.
+
+```bash
+  docker run -p 9000:9000 <docker image ID>
+```
+Check docker images running.
+
+```bash
+  docker ps
+```
+
+Stop docker image which is running.
+
+```bash
+  docker stop <docker container ID>
+```
+
+## Want to make change in your repo and push it github after clone.
+
+Add changes to local git.
+
+```bash
+  git add .
+```
+Commit those change in local git.
+
+```bash
+  git commit -m "<Write message for git commit">
+```
+
+Send changes to github repo.
+
+```bash
+  git push origin main
+```
 
 ## Tech Stack
 
