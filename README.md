@@ -109,7 +109,6 @@ Send changes to github repo.
 
 **Server:** Flask
 
-
 ## Contributing
 
 Contributions are always welcome!
@@ -131,4 +130,4 @@ If you have any feedback, please reach out to us at aaryaman09@gmail.com
 
 ## Appendix
 
-Project is completed.
+Project is completed. Date : 10th Feb'23
